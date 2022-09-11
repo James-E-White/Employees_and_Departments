@@ -33,8 +33,6 @@ RSpec.describe Department do
 
   it'can have expenses'do
 
-  @customer_service.expenses
-
   expect(@customer_service.expenses).to eq(0)
 
   @customer_service.expense(100)

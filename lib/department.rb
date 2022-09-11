@@ -10,8 +10,9 @@ class Department
     @employees << employee
   end
 
+
   def expense(expense)
-    @expense = expense
     @expenses += expense
   end
+
 end
